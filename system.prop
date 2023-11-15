@@ -62,7 +62,6 @@ ro.product.manufacturer=Google
 ro.product.model=Pixel 8 Pro
 ro.product.name=husky
 ro.product.board=husky
-ro.board.platform=zuma
 # end extra's from /system/build.prop
 
 ###

@@ -1,0 +1,83 @@
+###
+# begin product/etc/build.prop
+###
+
+# begin common build properties
+ro.product.product.brand=Google
+ro.product.product.device=husky
+ro.product.product.manufacturer=Google
+ro.product.product.model=Pixel 8 Pro
+ro.product.product.name=husky
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+
+###
+# end product/etc/build.prop
+###
+
+###
+#-#
+###
+
+###
+# begin vendor/build.prop
+###
+
+# begin common build properties
+ro.product.vendor.brand=Google
+ro.product.vendor.device=husky
+ro.product.vendor.manufacturer=Google
+ro.product.vendor.model=Pixel 8 Pro
+ro.product.vendor.name=husky
+
+# end common build properties
+
+# begin ADDITIONAL_VENDOR_PROPERTIES
+
+# begin common build properties
+ro.product.odm.brand=Google
+ro.product.odm.device=husky
+ro.product.odm.manufacturer=Google
+ro.product.odm.model=Pixel 8 Pro
+ro.product.odm.name=husky
+
+#
+
+# begin common build properties
+ro.product.system.brand=Google
+ro.product.system.device=husky
+ro.product.system.manufacturer=Google
+ro.product.system.model=Pixel 8 Pro
+ro.product.system.name=husky
+
+
+ro.build.tags=release-keys
+ro.build.flavor=husky-user
+ro.build.product=husky
+# begin extra's from /system/build.prop
+
+ro.product.brand=Google
+ro.product.device=husky
+ro.product.manufacturer=Google
+ro.product.model=Pixel 8 Pro
+ro.product.name=husky
+# end extra's from /system/build.prop
+
+###
+# end system/system/build.prop
+###
+
+###
+#-#
+###
+
+###
+# begin system_ext/etc/build.prop
+###
+
+# begin common build properties
+ro.product.system_ext.brand=Google
+ro.product.system_ext.device=husky
+ro.product.system_ext.manufacturer=Google
+ro.product.system_ext.model=Pixel 8 Pro
+ro.product.system_ext.name=husky

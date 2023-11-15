@@ -24,35 +24,35 @@ ro.product.build.type=user
 ###
 
 # begin common build properties
-ro.product.vendor.brand=Google
+ro.product.vendor.brand=google
 ro.product.vendor.device=husky
 ro.product.vendor.manufacturer=Google
 ro.product.vendor.model=Pixel 8 Pro
-ro.product.vendor.name=husky
+ro.product.vendor.name=husky_beta
 
 # end common build properties
 
 # begin ADDITIONAL_VENDOR_PROPERTIES
 
 # begin common build properties
-ro.product.odm.brand=Google
+ro.product.odm.brand=google
 ro.product.odm.device=husky
 ro.product.odm.manufacturer=Google
 ro.product.odm.model=Pixel 8 Pro
-ro.product.odm.name=husky
+ro.product.odm.name=husky_beta
 
 #
 
 # begin common build properties
-ro.product.system.brand=Google
+ro.product.system.brand=google
 ro.product.system.device=husky
 ro.product.system.manufacturer=Google
 ro.product.system.model=Pixel 8 Pro
-ro.product.system.name=husky
+ro.product.system.name=husky_beta
 
 
 ro.build.tags=release-keys
-ro.build.flavor=husky-user
+ro.build.flavor=husky_beta-user
 ro.build.product=husky
 # begin extra's from /system/build.prop
 
@@ -61,6 +61,8 @@ ro.product.device=husky
 ro.product.manufacturer=Google
 ro.product.model=Pixel 8 Pro
 ro.product.name=husky
+ro.product.board=husky
+ro.board.platform=zuma
 # end extra's from /system/build.prop
 
 ###
@@ -72,12 +74,17 @@ ro.product.name=husky
 ###
 
 ###
+# begin SOC build properties
+###
+ro.soc.model=Tensor G3
+
+###
 # begin system_ext/etc/build.prop
 ###
 
 # begin common build properties
-ro.product.system_ext.brand=Google
+ro.product.system_ext.brand=google
 ro.product.system_ext.device=husky
 ro.product.system_ext.manufacturer=Google
 ro.product.system_ext.model=Pixel 8 Pro
-ro.product.system_ext.name=husky
+ro.product.system_ext.name=husky_beta

@@ -1,8 +1,35 @@
-###
-# begin product/etc/build.prop
-###
+#####################
+# SYSTEM PROPERTIES #
+#####################
+ro.product.system.brand=google
+ro.product.system.device=husky
+ro.product.system.manufacturer=Google
+ro.product.system.model=Pixel 8 Pro
+ro.product.system.name=husky_beta
+ro.system.build.date=Mon Nov 13 23:38:20 UTC 2023
+ro.system.build.date.utc=1699918700
+ro.system.build.fingerprint=google/husky_beta/husky:14/AP11.231020.014/11091730:user/release-keys
+ro.system.build.id=AP11.231020.014
+ro.system.build.version.incremental=11091730
 
-# begin common build properties
+#########################
+# SYSTEM_EXT PROPERTIES #
+#########################
+ro.product.system_ext.brand=google
+ro.product.system_ext.device=husky
+ro.product.system_ext.manufacturer=Google
+ro.product.system_ext.model=Pixel 8 Pro
+ro.product.system_ext.name=husky_beta
+ro.product.name_for_attestation=husky
+ro.system_ext.build.date=Mon Nov 13 23:38:20 UTC 2023
+ro.system_ext.build.date.utc=1699918700
+ro.system_ext.build.fingerprint=google/husky_beta/husky:14/AP11.231020.014/11091730:user/release-keys
+ro.system_ext.build.id=AP11.231020.014
+ro.system_ext.build.version.incremental=11091730
+
+######################
+# PRODUCT PROPERTIES #
+######################
 ro.product.product.brand=google
 ro.product.product.device=husky
 ro.product.product.manufacturer=Google
@@ -15,19 +42,9 @@ ro.product.build.fingerprint=google/husky_beta/husky:14/AP11.231020.014/11091730
 ro.product.build.id=AP11.231020.014
 ro.product.build.version.incremental=11091730
 
-###
-# end product/etc/build.prop
-###
-
-###
-#-#
-###
-
-###
-# begin vendor/build.prop
-###
-
-# begin common build properties
+#####################
+# VENDOR PROPERTIES #
+#####################
 ro.product.vendor.brand=google
 ro.product.vendor.device=husky
 ro.product.vendor.manufacturer=Google
@@ -40,11 +57,9 @@ ro.vendor.build.fingerprint=google/husky_beta/husky:14/AP11.231020.014/11091730:
 ro.vendor.build.id=AP11.231020.014
 ro.vendor.build.version.incremental=11091730
 
-# end common build properties
-
-# begin ADDITIONAL_VENDOR_PROPERTIES
-
-# begin common build properties
+##################
+# ODM PROPERTIES #
+##################
 ro.product.odm.brand=google
 ro.product.odm.device=husky
 ro.product.odm.manufacturer=Google
@@ -57,21 +72,19 @@ ro.odm.build.fingerprint=google/husky_beta/husky:14/AP11.231020.014/11091730:use
 ro.odm.build.id=AP11.231020.014
 ro.odm.build.version.incremental=11091730
 
-#
+###################
+# BASE PROPERTIES #
+###################
+ro.product.brand=Google
+ro.product.device=husky
+ro.product.manufacturer=Google
+ro.product.model=Pixel 8 Pro
+ro.product.name=husky
+ro.product.board=husky
 
-# begin common build properties
-ro.product.system.brand=google
-ro.product.system.device=husky
-ro.product.system.manufacturer=Google
-ro.product.system.model=Pixel 8 Pro
-ro.product.system.name=husky_beta
-ro.system.build.date=Mon Nov 13 23:38:20 UTC 2023
-ro.system.build.date.utc=1699918700
-ro.system.build.fingerprint=google/husky_beta/husky:14/AP11.231020.014/11091730:user/release-keys
-ro.system.build.id=AP11.231020.014
-ro.system.build.version.incremental=11091730
-
-
+####################
+# BUILD PROPERTIES #
+####################
 ro.build.id=AP11.231020.014
 ro.build.display.id=AP11.231020.014
 ro.build.version.incremental=11091730
@@ -81,42 +94,8 @@ ro.build.host=abfarm-release-rbe-32-2004-00071
 ro.build.flavor=husky_beta-user
 ro.build.product=husky
 ro.build.description=husky_beta-user 14 AP11.231020.014 11091730 release-keys
-# begin extra's from /system/build.prop
 
-ro.product.brand=Google
-ro.product.device=husky
-ro.product.manufacturer=Google
-ro.product.model=Pixel 8 Pro
-ro.product.name=husky
-ro.product.board=husky
-# end extra's from /system/build.prop
-
-###
-# end system/system/build.prop
-###
-
-###
-#-#
-###
-
-###
-# begin SOC build properties
-###
+####################
+# EXTRA PROPERTIES #
+####################
 ro.soc.model=Tensor G3
-
-###
-# begin system_ext/etc/build.prop
-###
-
-# begin common build properties
-ro.product.system_ext.brand=google
-ro.product.system_ext.device=husky
-ro.product.system_ext.manufacturer=Google
-ro.product.system_ext.model=Pixel 8 Pro
-ro.product.system_ext.name=husky_beta
-ro.product.name_for_attestation=husky
-ro.system_ext.build.date=Mon Nov 13 23:38:20 UTC 2023
-ro.system_ext.build.date.utc=1699918700
-ro.system_ext.build.fingerprint=google/husky_beta/husky:14/AP11.231020.014/11091730:user/release-keys
-ro.system_ext.build.id=AP11.231020.014
-ro.system_ext.build.version.incremental=11091730

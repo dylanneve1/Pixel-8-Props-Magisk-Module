@@ -3,13 +3,17 @@
 ###
 
 # begin common build properties
-ro.product.product.brand=Google
+ro.product.product.brand=google
 ro.product.product.device=husky
 ro.product.product.manufacturer=Google
 ro.product.product.model=Pixel 8 Pro
-ro.product.product.name=husky
-ro.product.build.tags=release-keys
-ro.product.build.type=user
+ro.product.product.name=husky_beta
+ro.product.name_for_attestation=husky
+ro.product.build.date=Mon Nov 13 23:38:20 UTC 2023
+ro.product.build.date.utc=1699918700
+ro.product.build.fingerprint=google/husky_beta/husky:14/AP11.231020.014/11091730:user/release-keys
+ro.product.build.id=AP11.231020.014
+ro.product.build.version.incremental=11091730
 
 ###
 # end product/etc/build.prop
@@ -29,6 +33,12 @@ ro.product.vendor.device=husky
 ro.product.vendor.manufacturer=Google
 ro.product.vendor.model=Pixel 8 Pro
 ro.product.vendor.name=husky_beta
+ro.product.name_for_attestation=husky
+ro.vendor.build.date=Mon Nov 13 23:38:20 UTC 2023
+ro.vendor.build.date.utc=1699918700
+ro.vendor.build.fingerprint=google/husky_beta/husky:14/AP11.231020.014/11091730:user/release-keys
+ro.vendor.build.id=AP11.231020.014
+ro.vendor.build.version.incremental=11091730
 
 # end common build properties
 
@@ -40,6 +50,12 @@ ro.product.odm.device=husky
 ro.product.odm.manufacturer=Google
 ro.product.odm.model=Pixel 8 Pro
 ro.product.odm.name=husky_beta
+ro.product.name_for_attestation=husky
+ro.odm.build.date=Mon Nov 13 23:38:20 UTC 2023
+ro.odm.build.date.utc=1699918700
+ro.odm.build.fingerprint=google/husky_beta/husky:14/AP11.231020.014/11091730:user/release-keys
+ro.odm.build.id=AP11.231020.014
+ro.odm.build.version.incremental=11091730
 
 #
 
@@ -49,11 +65,22 @@ ro.product.system.device=husky
 ro.product.system.manufacturer=Google
 ro.product.system.model=Pixel 8 Pro
 ro.product.system.name=husky_beta
+ro.system.build.date=Mon Nov 13 23:38:20 UTC 2023
+ro.system.build.date.utc=1699918700
+ro.system.build.fingerprint=google/husky_beta/husky:14/AP11.231020.014/11091730:user/release-keys
+ro.system.build.id=AP11.231020.014
+ro.system.build.version.incremental=11091730
 
 
-ro.build.tags=release-keys
+ro.build.id=AP11.231020.014
+ro.build.display.id=AP11.231020.014
+ro.build.version.incremental=11091730
+ro.build.date=Mon Nov 13 23:38:20 UTC 2023
+ro.build.date.utc=1699918700
+ro.build.host=abfarm-release-rbe-32-2004-00071
 ro.build.flavor=husky_beta-user
 ro.build.product=husky
+ro.build.description=husky_beta-user 14 AP11.231020.014 11091730 release-keys
 # begin extra's from /system/build.prop
 
 ro.product.brand=Google
@@ -87,3 +114,9 @@ ro.product.system_ext.device=husky
 ro.product.system_ext.manufacturer=Google
 ro.product.system_ext.model=Pixel 8 Pro
 ro.product.system_ext.name=husky_beta
+ro.product.name_for_attestation=husky
+ro.system_ext.build.date=Mon Nov 13 23:38:20 UTC 2023
+ro.system_ext.build.date.utc=1699918700
+ro.system_ext.build.fingerprint=google/husky_beta/husky:14/AP11.231020.014/11091730:user/release-keys
+ro.system_ext.build.id=AP11.231020.014
+ro.system_ext.build.version.incremental=11091730
